@@ -10,7 +10,7 @@ public class agenteinmoDAO {
     private PreparedStatement ps;
     private ResultSet rs;
 
-    public agenteinmoDAO() {
+    public agenteinmoDAO(Connection connection) {
         con = new Conexion();
         this.connection = con.getConnection();
     }

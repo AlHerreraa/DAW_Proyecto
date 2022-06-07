@@ -10,7 +10,7 @@ public class ventas implements Serializable {
     private int idCliente;
     private int idAgente;
 
-    public ventas () { }
+    public ventas (int id_venta, int idInmueble, String libro, int cantidad, String tipo_pago, int codEmpleado, String fecha_compra, boolean status) { }
 
     public ventas (int id_venta) { this.id_venta = id_venta; }
 
