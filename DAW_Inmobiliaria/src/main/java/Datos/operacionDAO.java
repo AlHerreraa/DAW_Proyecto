@@ -1,6 +1,5 @@
 package Datos;
 
-import Tablas.inmuebles;
 import Tablas.operacion;
 import java.sql.*;
 
@@ -93,5 +92,4 @@ public class operacionDAO {
             e.printStackTrace();
         }
     }
-
 }

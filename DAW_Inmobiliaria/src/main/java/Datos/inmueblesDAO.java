@@ -1,4 +1,5 @@
 package Datos;
+
 import Tablas.inmuebles;
 import java.sql.*;
 
