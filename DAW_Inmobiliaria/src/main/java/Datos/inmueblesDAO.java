@@ -11,7 +11,7 @@ public class inmueblesDAO {
     private PreparedStatement ps;
     private ResultSet rs;
 
-    public inmueblesDAO() {
+    public inmueblesDAO(Connection connection) {
         con = new Conexion();
         this.connection = con.getConnection();
     }

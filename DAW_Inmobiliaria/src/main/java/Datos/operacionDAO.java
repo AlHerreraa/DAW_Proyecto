@@ -10,7 +10,7 @@ public class operacionDAO {
     private PreparedStatement ps;
     private ResultSet rs;
 
-    public operacionDAO() {
+    public operacionDAO(Connection connection) {
         con = new Conexion();
         this.connection = con.getConnection();
     }
