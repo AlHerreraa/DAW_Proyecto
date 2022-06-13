@@ -19,21 +19,21 @@
     <script src="https://kit.fontawesome.com/0458944bda.js" crossorigin="anonymous"></script>
 </head>
 
-<body background="fondodaw.jpg">
+<body background="/DAW_Inmobiliaria/fondodaw.jpg">
 
 <header class="header">
     <div class="container logo-nav-container">
         <nav class="navigation">
             <ul class="show">
-                <a href="#" class="logo"><img src="../logo.png" style="width: 150px; height: 43px;"/></a>
+                <a href="#" class="logo"><img src="/DAW_Inmobiliaria/Maco.png" style="width: 150px; height: 43px;"/></a>
                 <li><a href="/DAW_Inmobiliaria">Inicio</a></li>
                 <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Agente/Menu_agente.jsp">Agentes</a></font></li>
                 <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Cliente JSP/Menu_cliente.jsp">Clientes</a></font></li>
                 <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Inmuebles/Menu_inmuebles.jsp">Inmuebles</a></font></li>
                 <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Operacion/Menu_operacion.jsp">Operación</a></font></li>
-                <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Rentas/Menu_renta.jsp">Rentas</a></font></li>
+                <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Rentas/Menu_rentas.jsp">Rentas</a></font></li>
                 <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Tipo_Inmueble/Menu_tipoinmu.jsp">Tipo Inmuebles</a></font></li>
-                <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Ventas/Menu_venta.jsp">Ventas</a></font></li>
+                <li><font face="Arial" size="5px"><a href="/DAW_Inmobiliaria/Ventas/Menu_ventas.jsp">Ventas</a></font></li>
             </ul>
         </nav>
     </div>
@@ -70,7 +70,7 @@
             session.removeAttribute("Datos");
         %>
         </table>
-        <br/><form action="/DAW_Inmobiliaria/Rentas/Menu_renta.jsp">
+        <br/><form action="/DAW_Inmobiliaria/Rentas/Menu_rentas.jsp">
         <input type="submit" value="Regresar"/>
     </form>
     </div>

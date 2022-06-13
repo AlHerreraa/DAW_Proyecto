@@ -1,6 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, "Arial", serif;
-    color: Blue;
+    color: black;
     font-size: 1.2rem;
     line-height: 1.6em;
     margin: 0;
@@ -23,7 +23,7 @@ p {
 }
 
 .header {
-    background: #111f69;
+    background: yellow;
     color: white;
     padding: 2rem 0;
     position: fixed;
@@ -72,7 +72,7 @@ p {
 }
 
 .navigation ul li a:hover {
-    background: #6071cc;
+    background: yellow;
 }
 
 .main {
@@ -81,7 +81,7 @@ p {
 
 
 .menu-link{
-    color: black;
+    color: yellow;
 }
 
 @media only screen and (max-width: 767px) {
@@ -112,6 +112,6 @@ p {
     }
 
     .navigation ul li a:hover {
-        background: #6071cc;
+        background: ghostwhite;
     }
 }

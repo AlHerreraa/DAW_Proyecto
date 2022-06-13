@@ -1,8 +1,8 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    color: white;
-    font-size: 1.2rem; /*tamaño de las letras*/
-    line-height: 1.6em; /* interlineado */
+    font-family: Cambria, Cochin, Georgia, Times, "Arial", serif;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.6em;
     margin: 0;
 }
 
@@ -11,9 +11,9 @@ h1 {
     line-height: 1.3em;
 }
 
-/* parrafos */
+
 p {
-    margin-bottom: 1.6em; /*margen inferior funciona como enter entre parrafos*/
+    margin-bottom: 1.6em;
 }
 
 .container {
@@ -23,15 +23,12 @@ p {
 }
 
 .header {
-    background: #111f69;
+    background: yellow;
     color: white;
     padding: 2rem 0;
-
-    /* hacer el menu fijo */
     position: fixed;
     left: 0;
     top: 0;
-    /* ocuapamos todo el ancho */
     right: 0;
 }
 
@@ -43,15 +40,13 @@ p {
 .logo-nav-container {
     display: flex;
     justify-content: space-between;
-    /* lo alineamos al centro */
     align-items: center;
 
     flex-wrap: wrap;
 }
 
-/* logo */
 .logo {
-    letter-spacing: 15px;
+    letter-spacing: 12px;
     font-size: 1.3em;
 }
 
@@ -59,7 +54,6 @@ p {
     display: none;
 }
 
-/* todos los "ul" que esten dentro de "navigation" */
 .navigation ul {
     margin: 0;
     padding: 0;
@@ -67,11 +61,9 @@ p {
 }
 
 .navigation ul li {
-    /* uno al lado del otro */
     display: inline-block;
 }
 
-/* los enlaces dentro del menu */
 .navigation ul li a {
     display: block;
     padding: 0.5rem 1rem;
@@ -80,7 +72,7 @@ p {
 }
 
 .navigation ul li a:hover {
-    background: #6071cc;
+    background: yellow;
 }
 
 .main {
@@ -89,11 +81,8 @@ p {
 
 
 .menu-link{
-    color: black;
+    color: yellow;
 }
-
-/* REPONSIVE */
-/* todas las caracteristicas que se mostraran a continuancion seran cuando tenga un ancho maximo de 767px */
 
 @media only screen and (max-width: 767px) {
     .menu-icon{
@@ -115,7 +104,6 @@ p {
         display: block;
     }
 
-    /* los enlaces dentro del menu */
     .navigation ul li a {
         display: block;
         padding: 0.5rem 1rem;
@@ -124,6 +112,6 @@ p {
     }
 
     .navigation ul li a:hover {
-        background: #6071cc;
+        background: ghostwhite;
     }
 }

@@ -13,21 +13,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/DAW_Inmobiliaria/Diseno.css">
     <link rel="stylesheet" href="/DAW_Inmobiliaria/Opcion.css">
-    <link rel="icon" href="../Maco.png"/>
+    <link rel="icon" href="/DAW_Inmobiliaria/Maco.png"/>
     <script src="https://kit.fontawesome.com/0458944bda.js" crossorigin="anonymous"></script>
 </head>
 <body background="/DAW_Inmobiliaria/fondodaw.jpg">
+
 <header class="header">
     <div class="container logo-nav-container">
 
         <nav class="navigation">
             <ul class="show">
-                <a href="#" class="logo"><img src="../logo.png" style="width: 150px; height: 43px;"/></a>
+                <a href="#" class="logo"><img src="/DAW_Inmobiliaria/Maco.png" style="width: 150px; height: 43px;"/></a>
                 <li><a href="/DAW_Inmobiliaria">Inicio</a></li>
                 <li><a href="/DAW_Inmobiliaria/Agente/Menu_agente.jsp">Agentes</a></li>
                 <li><a href="/DAW_Inmobiliaria/Cliente JSP/Menu_cliente.jsp">Clientes</a></li>
                 <li><a href="/DAW_Inmobiliaria/Inmuebles/Menu_inmuebles.jsp">Inmuebles</a></li>
-                <li><a href="/DAW_Inmobiliaria/Operacion/Menu_operacion.jsp">Operaaciones</a></li>
+                <li><a href="/DAW_Inmobiliaria/Operacion/Menu_operacion.jsp">Operación</a></li>
                 <li><a href="/DAW_Inmobiliaria/Rentas/Menu_rentas.jsp">Rentas</a></li>
                 <li><a href="/DAW_Inmobiliaria/Tipo_Inmueble/Menu_tipoinmu.jsp">Tipo Inmuebles</a></li>
                 <li><a href="/DAW_Inmobiliaria/Ventas/Menu_ventas.jsp">Ventas</a></li>

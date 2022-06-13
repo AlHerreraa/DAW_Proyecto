@@ -16,26 +16,22 @@
     <link rel="stylesheet" href="/DAW_Inmobiliaria/style.css">
     <link rel="icon" href="/DAW_Inmobiliaria/Maco.png">
 </head>
-<body background="../fondo.jpg">
+
+<body background="/DAW_Inmobiliaria/fondodaw.jpg">
 
 <header class="header">
     <div class="container logo-nav-container">
         <nav class="navigation">
             <ul class="show">
-                <a href="#" class="logo"><img src="../logo.png" style="width: 150px; height: 43px;"/></a>
-                <li><a href="/LibreriaCientifica">Inicio</a></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Agente/menu_almacen.jsp">Agente</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Cliente JSP/menu_autores.jsp">Autor</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Cargo/menu_cargo.jsp">Cargo</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Cliente/menu_cliente.jsp">Cliente</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Editorial/menu_editorial.jsp">Editorial</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Empleado/menu_empleado.jsp">Empleado</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Estante/menu_estante.jsp">Estante</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Idioma/menu_idioma.jsp">Idioma</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Libros/menu_libros.jsp">Libros</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/Materia/menu_materia.jsp">Materia</a></font></li>
-                <li><font face="times new roman" size="5px"><a href="/DAW_Inmobiliaria/NotaVenta/menu_notaventa.jsp">Nota</a></font></li>
-
+                <a href="#" class="logo"><img src="/DAW_Inmobiliaria/Maco.png" style="width: 150px; height: 43px;"/></a>
+                <li><a href="/DAW_Inmobiliaria">Inicio</a></li>
+                <li><a href="/DAW_Inmobiliaria/Agente/Menu_agente.jsp">Agentes</a></li>
+                <li><a href="/DAW_Inmobiliaria/Cliente JSP/Menu_cliente.jsp">Clientes</a></li>
+                <li><a href="/DAW_Inmobiliaria/Inmuebles/Menu_inmuebles.jsp">Inmuebles</a></li>
+                <li><a href="/DAW_Inmobiliaria/Operacion/Menu_operacion.jsp">Operación</a></li>
+                <li><a href="/DAW_Inmobiliaria/Rentas/Menu_rentas.jsp">Rentas</a></li>
+                <li><a href="/DAW_Inmobiliaria/Tipo_Inmueble/Menu_tipoinmu.jsp">Tipo Inmuebles</a></li>
+                <li><a href="/DAW_Inmobiliaria/Ventas/Menu_ventas.jsp">Ventas</a></li>
             </ul>
         </nav>
     </div>
@@ -43,20 +39,21 @@
 
 <main class="main">
     <div class="container">
-        <br/><br/><form method="post" action="/LibreriaCientifica/UpdateCliente">
-        <p>Código Cliente <input type="text" name = "codCliente"> </p>
-        <p>Nombre <input type="text" name = "nombre"> </p>
-        <p>Apellido Paterno <input type="text" name = "aPaterno"> </p>
-        <p>Apellido Materno <input type="text" name = "aMaterno"> </p>
-        <p>Correo <input type="text" name = "correo"> </p>
+        <br/><br/><form method="post" action="/DAW_Inmobiliaria/Updatecliente">
+        <p>ID Agente <input type="text" name = "id_agente"> </p>
+        <p>Nombre agente <input type="text" name = "nombre"> </p>
+        <p>Apellido paterno <input type="text" name = "a_paterno"> </p>
+        <p>Apellido materno <input type="text" name = "a_materno"> </p>
+        <p>Cantidad de inmuebles <input type="text" name = "cant_inmuebles"> </p>
         <p>Telefono <input type="text" name = "telefono"> </p>
-        <p>Status <input type="text" name = "status"> </p>
+        <p>Celular <input type="text" name = "celular"> </p>
+        <p>Email <input type="text" name = "email"> </p>
         <p class="center-content">
             <input type="submit" value="Actualizar"/>
         </p>
     </form>
 
-        <form action="/LibreriaCientifica/Cliente/menu_cliente.jsp">
+        <form action="/DAW_Inmobiliaria/Agente/Menu_cliente.jsp">
             <input type="submit" value="Regresar"/>
         </form>
     </div>
